@@ -4,7 +4,7 @@
       "Thomas R. Wyant, III (wyant at cpan dot org)"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.421",
+   "generated_by" : "Module::Build version 0.4214",
    "license" : [
       "perl_5"
    ],
@@ -54,17 +54,24 @@
    "provides" : {
       "Perl::Critic::Policy::Variables::ProhibitUnusedVarsStricter" : {
          "file" : "lib/Perl/Critic/Policy/Variables/ProhibitUnusedVarsStricter.pm",
-         "version" : "0.003"
+         "version" : "0.004"
       }
    },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
+         "mailto" : "wyant@cpan.org",
          "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Perl-Critic-Policy-Variables-ProhibitUnusedVarsStricter"
       },
       "license" : [
          "http://dev.perl.org/licenses/"
-      ]
+      ],
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/trwyant/perl-Perl-Critic-Policy-Variables-ProhibitUnusedVarsStricter.git",
+         "web" : "https://github.com/trwyant/perl-Perl-Critic-Policy-Variables-ProhibitUnusedVarsStricter"
+      }
    },
-   "version" : "0.003"
+   "version" : "0.004",
+   "x_serialization_backend" : "JSON::PP version 2.27300"
 }

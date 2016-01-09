@@ -6,7 +6,7 @@ build_requires:
   Carp: '0'
   lib: '0'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.421, CPAN::Meta::Converter version 2.143240'
+generated_by: 'Module::Build version 0.4214, CPAN::Meta::Converter version 2.150005'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -24,7 +24,7 @@ no_index:
 provides:
   Perl::Critic::Policy::Variables::ProhibitUnusedVarsStricter:
     file: lib/Perl/Critic/Policy/Variables/ProhibitUnusedVarsStricter.pm
-    version: '0.003'
+    version: '0.004'
 recommends:
   File::Which: '0'
   Readonly::XS: '0'
@@ -42,4 +42,6 @@ requires:
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Perl-Critic-Policy-Variables-ProhibitUnusedVarsStricter
   license: http://dev.perl.org/licenses/
-version: '0.003'
+  repository: git://github.com/trwyant/perl-Perl-Critic-Policy-Variables-ProhibitUnusedVarsStricter.git
+version: '0.004'
+x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
